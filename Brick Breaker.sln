@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brick_Breaker", "Brick Breaker\Brick_Breaker\Brick_Breaker.csproj", "{DA3A1D12-556C-4BB1-9417-AAE836607738}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "Brick_BreakerContent", "Brick Breaker\Brick_BreakerContent\Brick_BreakerContent.contentproj", "{AC84C627-6377-47B2-995A-5A1F3950464C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA3A1D12-556C-4BB1-9417-AAE836607738}.Debug|x86.ActiveCfg = Debug|x86
+		{DA3A1D12-556C-4BB1-9417-AAE836607738}.Debug|x86.Build.0 = Debug|x86
+		{DA3A1D12-556C-4BB1-9417-AAE836607738}.Release|x86.ActiveCfg = Release|x86
+		{DA3A1D12-556C-4BB1-9417-AAE836607738}.Release|x86.Build.0 = Release|x86
+		{AC84C627-6377-47B2-995A-5A1F3950464C}.Debug|x86.ActiveCfg = Debug|x86
+		{AC84C627-6377-47B2-995A-5A1F3950464C}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
