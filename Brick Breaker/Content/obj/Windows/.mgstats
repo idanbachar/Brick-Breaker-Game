@@ -1,0 +1,4 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/idan_/Desktop/Brick Breaker/Brick Breaker/Brick Breaker/Content/fonts/Font.spritefont","C:/Users/idan_/Desktop/Brick Breaker/Brick Breaker/Brick Breaker/Content/bin/Windows/fonts/Font.xnb","FontDescriptionProcessor","SpriteFontContent",2068,21521,0.3670187
+"C:/Users/idan_/Desktop/Brick Breaker/Brick Breaker/Brick Breaker/Content/images/ball.png","C:/Users/idan_/Desktop/Brick Breaker/Brick Breaker/Brick Breaker/Content/bin/Windows/images/ball.xnb","TextureProcessor","Texture2DContent",24643,480333,0.0837764
+"C:/Users/idan_/Desktop/Brick Breaker/Brick Breaker/Brick Breaker/Content/images/block.png","C:/Users/idan_/Desktop/Brick Breaker/Brick Breaker/Brick Breaker/Content/bin/Windows/images/block.xnb","TextureProcessor","Texture2DContent",488,38501,0.0099742

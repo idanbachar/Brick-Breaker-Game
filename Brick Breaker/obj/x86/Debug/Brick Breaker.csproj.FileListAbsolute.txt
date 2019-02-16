@@ -1,0 +1,26 @@
+C:\Users\idan_\Desktop\Brick Breaker\Brick Breaker\Brick Breaker\bin\Windows\x86\Debug\Content\images\ball.xnb
+C:\Users\idan_\Desktop\Brick Breaker\Brick Breaker\Brick Breaker\bin\Windows\x86\Debug\Content\images\block.xnb
+C:\Users\idan_\Desktop\Brick Breaker\Brick Breaker\Brick Breaker\bin\Windows\x86\Debug\Content\fonts\Font.xnb
+C:\Users\idan_\Desktop\Brick Breaker\Brick Breaker\Brick Breaker\bin\Windows\x86\Debug\Brick Breaker.exe
+C:\Users\idan_\Desktop\Brick Breaker\Brick Breaker\Brick Breaker\bin\Windows\x86\Debug\Brick Breaker.pdb
+C:\Users\idan_\Desktop\Brick Breaker\Brick Breaker\Brick Breaker\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\idan_\Desktop\Brick Breaker\Brick Breaker\Brick Breaker\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\idan_\Desktop\Brick Breaker\Brick Breaker\Brick Breaker\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\idan_\Desktop\Brick Breaker\Brick Breaker\Brick Breaker\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\idan_\Desktop\Brick Breaker\Brick Breaker\Brick Breaker\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\idan_\Desktop\Brick Breaker\Brick Breaker\Brick Breaker\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\idan_\Desktop\Brick Breaker\Brick Breaker\Brick Breaker\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\idan_\Desktop\Brick Breaker\Brick Breaker\Brick Breaker\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\idan_\Desktop\Brick Breaker\Brick Breaker\Brick Breaker\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\idan_\Desktop\Brick Breaker\Brick Breaker\Brick Breaker\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\idan_\Desktop\Brick Breaker\Brick Breaker\Brick Breaker\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\idan_\Desktop\Brick Breaker\Brick Breaker\Brick Breaker\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\idan_\Desktop\Brick Breaker\Brick Breaker\Brick Breaker\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\idan_\Desktop\Brick Breaker\Brick Breaker\Brick Breaker\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\idan_\Desktop\Brick Breaker\Brick Breaker\Brick Breaker\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\idan_\Desktop\Brick Breaker\Brick Breaker\Brick Breaker\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\idan_\Desktop\Brick Breaker\Brick Breaker\Brick Breaker\obj\x86\Debug\Brick Breaker.csprojAssemblyReference.cache
+C:\Users\idan_\Desktop\Brick Breaker\Brick Breaker\Brick Breaker\obj\x86\Debug\Brick Breaker.csproj.CoreCompileInputs.cache
+C:\Users\idan_\Desktop\Brick Breaker\Brick Breaker\Brick Breaker\obj\x86\Debug\Brick Breaker.csproj.CopyComplete
+C:\Users\idan_\Desktop\Brick Breaker\Brick Breaker\Brick Breaker\obj\x86\Debug\Brick Breaker.exe
+C:\Users\idan_\Desktop\Brick Breaker\Brick Breaker\Brick Breaker\obj\x86\Debug\Brick Breaker.pdb
