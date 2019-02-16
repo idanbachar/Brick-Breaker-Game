@@ -4,9 +4,9 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/idan_/Desktop/Brick Breaker/Brick Breaker/Brick Breaker/Content/fonts/Font.spritefont</File>
-    <File>C:/Users/idan_/Desktop/Brick Breaker/Brick Breaker/Brick Breaker/Content/images/ball.png</File>
-    <File>C:/Users/idan_/Desktop/Brick Breaker/Brick Breaker/Brick Breaker/Content/images/block.png</File>
+    <File>C:/Users/idan_/Documents/Brick Breaker/brick-breaker/Brick Breaker/Content/fonts/Font.spritefont</File>
+    <File>C:/Users/idan_/Documents/Brick Breaker/brick-breaker/Brick Breaker/Content/images/ball.png</File>
+    <File>C:/Users/idan_/Documents/Brick Breaker/brick-breaker/Brick Breaker/Content/images/block.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

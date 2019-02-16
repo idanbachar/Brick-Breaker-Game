@@ -119,6 +119,12 @@ namespace Brick_Breaker
 
                 racket.Check(this);
             }
+
+
+            if (Keyboard.GetState().IsKeyDown(Keys.Escape))
+                Exit();
+
+
             base.Update(gameTime);
         }
 
