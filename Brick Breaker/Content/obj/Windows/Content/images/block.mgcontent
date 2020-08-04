@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/idan_/Documents/Brick Breaker/brick-breaker/Brick Breaker/Content/images/block.png</SourceFile>
-  <SourceTime>2017-03-13T12:28:10+02:00</SourceTime>
-  <DestFile>C:/Users/idan_/Documents/Brick Breaker/brick-breaker/Brick Breaker/Content/bin/Windows/Content/images/block.xnb</DestFile>
-  <DestTime>2019-02-16T11:15:20.8917681+02:00</DestTime>
+  <SourceFile>C:/Users/idan_/Documents/Git Projects/XNA/Brick Breaker/brick-breaker/Brick Breaker/Content/images/block.png</SourceFile>
+  <SourceTime>2020-08-04T19:02:37.9659173+03:00</SourceTime>
+  <DestFile>C:/Users/idan_/Documents/Git Projects/XNA/Brick Breaker/brick-breaker/Brick Breaker/Content/bin/Windows/Content/images/block.xnb</DestFile>
+  <DestTime>2020-08-04T19:03:54.2451475+03:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-12-08T18:35:54+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

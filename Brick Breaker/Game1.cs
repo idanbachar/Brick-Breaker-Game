@@ -49,13 +49,13 @@ namespace Brick_Breaker
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             racket = new Racket(new Rectangle(graphics.PreferredBackBufferWidth / 2 - 100, graphics.PreferredBackBufferHeight - 50, 100, 15), Content);
-            blocks = new Block[5, 16];
-            for (int y = 0; y < 5; y++) {
-                for(int x = 0; x < 16; x++) {
+            blocks = new Block[4, 16];
+            for (int y = 0; y < blocks.GetLength(0); y++) {
+                for(int x = 0; x < blocks.GetLength(1); x++) {
                     blocks[y, x] = new Block(new Rectangle(x * 50, y * 50, 50, 50), Content);
                 }
             }
-            ball = new Ball(new Rectangle(graphics.PreferredBackBufferWidth / 2 - 25, graphics.PreferredBackBufferHeight / 2 - 25, 25, 25), -5, -6, Content, graphics);
+            ball = new Ball(new Rectangle(graphics.PreferredBackBufferWidth / 2 - 25, graphics.PreferredBackBufferHeight / 2 - 25, 25, 25), -8, -8, Content, graphics);
 
             font = Content.Load<SpriteFont>("fonts/Font");
 

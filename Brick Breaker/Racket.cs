@@ -17,7 +17,7 @@ namespace Brick_Breaker
 
             position = new Rectangle(rectangle.X, rectangle.Y, rectangle.Width, rectangle.Height);
             texture = content.Load<Texture2D>("images/block");
-            speed = 5;
+            speed = 8;
             bullets = new List<Bullet>();
         }
 
