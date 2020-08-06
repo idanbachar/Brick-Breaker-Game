@@ -10,7 +10,7 @@ namespace Brick_Breaker {
     public class Player {
 
         public Racket Racket; //Racket
-        
+
         /// <summary>
         /// Initializes player
         /// </summary>
@@ -25,7 +25,7 @@ namespace Brick_Breaker {
             Racket = new Racket(x, y, width, height);
         }
 
-        public void Update() {
+        public void Update(Block[,] blocks) {
 
             //Go right:
             if (Keyboard.GetState().IsKeyDown(Keys.D))
@@ -33,7 +33,10 @@ namespace Brick_Breaker {
             else if (Keyboard.GetState().IsKeyDown(Keys.A)) //Go left:
                 Move(Direction.Left);
 
+            //Check for falling blocks interactions:
+            Racket.CheckBlocksInteractions(blocks);
         }
+
 
         /// <summary>
         /// Move racket to received direction

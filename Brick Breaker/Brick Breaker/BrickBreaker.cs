@@ -42,10 +42,13 @@ namespace Brick_Breaker
             Player = new Player();
             Ball = new Ball();
 
-            //Events:
+            //Ball events:
             Ball.OnScore += Level.AddScore;
             Ball.OnMiss += Level.DecreaseChance;
             Ball.OnWin += Level.Win;
+
+            //Racket events:
+            Player.Racket.OnBlockHit += Level.DecreaseChance;
         }
 
         protected override void UnloadContent()
@@ -61,7 +64,7 @@ namespace Brick_Breaker
             //If game not yet over:
             if (!Level.IsGameOver) {
                 //Update player:
-                Player.Update();
+                Player.Update(Level.Blocks);
 
                 //Update ball:
                 Ball.Update(Level.Blocks, Player.Racket);

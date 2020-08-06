@@ -10,7 +10,9 @@ namespace Brick_Breaker {
     public class Block {
 
         public bool IsActive; //Indication if block is active
+        public bool Visible; //Indication of block visibility
         public Rectangle Rectangle; //Block's rectangle
+
 
         private Texture2D Texture; //Block's texture
         private Color Color; //Current block's color
@@ -27,8 +29,9 @@ namespace Brick_Breaker {
         public Block(int x, int y, int width, int height, Color color) {
             IsActive = true;
             Rectangle = new Rectangle(x, y, width, height);
-            Speed = 5;
+            Speed = 8;
             Color = color;
+            Visible = true;
             LoadContent();
         }
 
@@ -38,6 +41,14 @@ namespace Brick_Breaker {
         public void LoadContent() {
 
             Texture = BrickBreaker.ContentManager.Load<Texture2D>("images/block/block");
+        }
+
+        /// <summary>
+        /// Receives new color and sets block's color
+        /// </summary>
+        /// <param name="newColor"></param>
+        public void SetColor(Color newColor) {
+            Color = newColor;
         }
 
         /// <summary>
@@ -61,7 +72,9 @@ namespace Brick_Breaker {
         /// Draw block
         /// </summary>
         public void Draw() {
-            BrickBreaker.SpriteBatch.Draw(Texture, Rectangle, Color);
+
+            if (Visible)
+                BrickBreaker.SpriteBatch.Draw(Texture, Rectangle, Color);
         }
     }
 }

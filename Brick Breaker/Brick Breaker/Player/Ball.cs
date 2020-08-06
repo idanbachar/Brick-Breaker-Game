@@ -32,8 +32,8 @@ namespace Brick_Breaker {
                                       25,
                                       25);
 
-            Dx = -8;
-            Dy = -8;
+            Dx = -10;
+            Dy = -10;
             LoadContent();
         }
 
@@ -105,7 +105,8 @@ namespace Brick_Breaker {
         /// <param name="racket"></param>
         private void CheckRacketIntersections(Racket racket) {
 
-            if (Rectangle.Bottom >= racket.Rectangle.Top && Rectangle.Top <= racket.Rectangle.Top && Rectangle.Left >= racket.Rectangle.Left && Rectangle.Right <= racket.Rectangle.Right)
+            if (Rectangle.Bottom > racket.Rectangle.Top && Rectangle.Top < racket.Rectangle.Top &&
+                Rectangle.Left + Rectangle.Width / 2 > racket.Rectangle.Left && Rectangle.Right - Rectangle.Width / 2 < racket.Rectangle.Right)
                 Rectangle = new Rectangle(Rectangle.X, Rectangle.Y += (Dy *= -1), Rectangle.Width, Rectangle.Height);
         }
 
@@ -113,14 +114,15 @@ namespace Brick_Breaker {
         /// Check for ball interactions with the blocks
         /// </summary>
         /// <param name="blocks"></param>
-        private void CheckBlocksInteractions(Block [,] blocks) {
+        private void CheckBlocksInteractions(Block[,] blocks) {
             for (int y = 0; y < blocks.GetLength(0); y++)
                 for (int x = 0; x < blocks.GetLength(1); x++) {
-                    if (Rectangle.Intersects(blocks[y, x].Rectangle) && blocks[y, x].IsActive) {
+                    if (Rectangle.Intersects(blocks[y, x].Rectangle) && blocks[y, x].IsActive && blocks[y, x].Visible) {
 
                         blocks[y, x].IsActive = false;
+                        blocks[y, x].SetColor(Color.Red);
                         Rectangle = new Rectangle(Rectangle.X, Rectangle.Y += (Dy *= -1), Rectangle.Width, Rectangle.Height);
-                        
+
                         //Add score event:
                         OnScore();
                     }
