@@ -36,3 +36,5 @@ The goal is to make the ball hit at the top of the game's window.
 ## Credits
 
 Game developed by <a href="https://www.linkedin.com/in/idanbachar/">Idan Bachar</a>.
+
+© 2020 Idan Bachar All Rights Reserved.
