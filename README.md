@@ -1,5 +1,7 @@
 # Brick Breaker
 
+<img width="300" src="https://assets.gitlab-static.net/uploads/-/system/project/avatar/10870447/brick_breaker.png?width=64">
+
 ## What is Brick Breaker?
 
 
