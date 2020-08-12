@@ -9,6 +9,12 @@
 <br/>
 Only fast reaction players have a chance to win.
 
+-Click image below to watch the gameplay video:
+
+<a href="https://www.youtube.com/watch?v=-EEZHM7frJ4">
+    <img src="http://i3.ytimg.com/vi/-EEZHM7frJ4/hqdefault.jpg">
+</a>
+
 ## Rules/How to play
 
 -**Your character** in the game is racket:
