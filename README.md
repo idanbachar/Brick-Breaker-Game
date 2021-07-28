@@ -2,7 +2,6 @@
 
 ## What is Brick Breaker?
 
-
 **Brick Breaker** is just a basic 'Brick Breaker' game, with a bit of additions.
 <br/>
 Only fast reaction players have a chance to win.
