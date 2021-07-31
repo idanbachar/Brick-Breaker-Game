@@ -16,7 +16,7 @@ Only fast reaction players have a chance to win.
 
 -**Your character** in the game is racket:
 
-<img width="200" src="images/player/racket.png" />
+<img width="200" src="https://raw.githubusercontent.com/idanbachar/brick-breaker-client/master/images/player/racket.png" />
 <br/>
 <br/>
 
@@ -24,22 +24,9 @@ Only fast reaction players have a chance to win.
 
  | Object | Image |
 | ------ | ------ |
-| Ball | <img width="100" src="images/objects/ball.png"> |
-| Block | <img width="100" src="images/objects/block.png"> |
+| Ball | <img width="100" src="https://raw.githubusercontent.com/idanbachar/brick-breaker-client/master/images/objects/ball.png"> |
+| Block | <img width="100" src="https://raw.githubusercontent.com/idanbachar/brick-breaker-client/master/images/objects/block.png"> |
 
 In this game, blocks you hit falls on you and give you damage.
 <br/>
 The goal is to make the ball hit at the top of the game's window.
-
-## Screenshots Gallery
-<img width="500" src="images/gameplay/gameplay_1.png">
-<img width="500" src="images/gameplay/gameplay_2.png">
-<img width="500" src="images/gameplay/gameplay_3.png">
-<img width="500" src="images/gameplay/gameplay_4.png">
-<img width="500" src="images/gameplay/gameplay_5.png">
-
-## Credits
-
-Game developed by <a href="https://www.linkedin.com/in/idanbachar/">Idan Bachar</a>.
-
-© 2021 Idan Bachar All Rights Reserved.
