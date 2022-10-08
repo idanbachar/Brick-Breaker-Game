@@ -1,32 +1,52 @@
 # Brick Breaker
 
-## What is Brick Breaker?
+**Brick Breaker** is a Breakout clone which the player must smash a wall of bricks by deflecting a bouncing ball with a paddle. The paddle may move horizontally and is controlled with the keyboard arrows keys.
 
-**Brick Breaker** is just a basic 'Brick Breaker' game, with a bit of additions.
-<br/>
-Only fast reaction players have a chance to win.
+   <img src="https://github.com/idanbachar/brick-breaker-game/raw/master/images/cover/cover.png?raw=true" width="450" />
 
--Click image below to watch the gameplay video:
 
-<a href="https://www.youtube.com/watch?v=-EEZHM7frJ4">
-    <img src="http://i3.ytimg.com/vi/-EEZHM7frJ4/hqdefault.jpg">
-</a>
+## How to play?
 
-## Rules/How to play
+The player moves a racket from side to side to hit the ball. The goal of the game is to eliminate all the bricks at the top of the screen by hitting them with the ball
 
--**Your character** in the game is racket:
+<table border="1" cellspacing="0">
+ <tr>
+  <th>Racket</th>
+  <th>Ball</th>
+  <th>Brick</th>
+ </tr>
+ <tr>
+  <td>
+   <img src="https://raw.githubusercontent.com/idanbachar/brick-breaker-game/master/images/player/racket.png" width="150" />
+  </td>
+  <td>
+   <img src="https://raw.githubusercontent.com/idanbachar/brick-breaker-game/master/images/objects/ball.png" width="150" />
+  </td>
+  <td>
+   <img src="https://raw.githubusercontent.com/idanbachar/brick-breaker-game/master/images/objects/block.png" width="150" />
+  </td>
+ </tr>
+</table>
 
-<img width="200" src="https://raw.githubusercontent.com/idanbachar/brick-breaker-client/master/images/player/racket.png" />
-<br/>
-<br/>
-
--There are **blocks you need to hit with the moving ball**:
-
- | Object | Image |
-| ------ | ------ |
-| Ball | <img width="100" src="https://raw.githubusercontent.com/idanbachar/brick-breaker-client/master/images/objects/ball.png"> |
-| Block | <img width="100" src="https://raw.githubusercontent.com/idanbachar/brick-breaker-client/master/images/objects/block.png"> |
-
-In this game, blocks you hit falls on you and give you damage.
-<br/>
-The goal is to make the ball hit at the top of the game's window.
+### Gallery
+<table border="1" cellspacing="0">
+ <tr>
+  <td>
+   <img src="https://raw.githubusercontent.com/idanbachar/brick-breaker-game/master/images/gameplay/gameplay_1.png" width="350" />
+  </td>
+   <td>
+   <img src="https://raw.githubusercontent.com/idanbachar/brick-breaker-game/master/images/gameplay/gameplay_2.png" width="350" />
+  </td>
+  <td>
+   <img src="https://raw.githubusercontent.com/idanbachar/brick-breaker-game/master/images/gameplay/gameplay_3.png" width="350" />
+  </td>
+ </tr>
+ <tr>
+  <td>
+   <img src="https://raw.githubusercontent.com/idanbachar/brick-breaker-game/master/images/gameplay/gameplay_4.png" width="350" />
+  </td>
+   <td>
+   <img src="https://raw.githubusercontent.com/idanbachar/brick-breaker-game/master/images/gameplay/gameplay_5.png" width="350" />
+  </td>
+ </tr>
+</table>
